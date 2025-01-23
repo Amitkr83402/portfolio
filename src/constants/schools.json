@@ -1,0 +1,21 @@
+[{
+  "id": 1,
+  "degree": "Secondary (X)",
+  "university": "St. Francis School",
+  "timePeriod": "2016",
+  "img": "images/school.png"
+},
+{
+  "id": 2,
+  "degree": "Senior Secondary (XII)",
+  "university": "XYZ College",
+  "timePeriod": "2018",
+  "img": "images/school.png"
+},
+{
+  "id": 3,
+  "degree": "Bachelor of Science in Information Technology",
+  "university": "XYZ College",
+  "timePeriod": "2021",
+  "img": "images/school.png"
+}]

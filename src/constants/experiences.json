@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "title": "Junior Software Developer",
+    "company": "XYZ Company",
+    "description": "At XYZ Company, I led full-stack development in React environment powered by JavaScript, Node.js, and Express.js. ",
+    "timePeriod": "November 2023 - August 2024",
+    "img": "images/xyz.png"
+  }
+]
