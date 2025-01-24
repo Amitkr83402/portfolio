@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "title": "PHYTHON & PHP With MYSQL",
+    "title": "PYTHON & PHP With MYSQL",
     "company": "Lifetech Software, Regd. Under MSMES Govt. of INDIA",
     "description": "Description",
-    "timePeriod": "August 2022 - July 2023",
+    "timePeriod": "March 2021- August 2021",
     "img": "images/certificate.png"
   },
   {
@@ -12,7 +12,7 @@
     "title": "MS EXCEL",
     "company": "Coursera Project Network",
     "description": "Description",
-    "timePeriod": "August 2022 - July 2023",
+    "timePeriod": "Nomber 2024 - December 2024",
     "img": "images/certificate.png"
   }
 ]

@@ -49,17 +49,17 @@ const About = () => {
         onMouseLeave={() => setScale(1)}
       />
       <animated.div style={slideUp}>
-        <h1 className="text-4xl font-bold text-darkDesert mb-4 text-center px-8">
+        <h1 className="text-4xl font-bold text-darkDesert mb-4 text-center px-8" style={{ fontFamily: 'Times New Roman' }}>
           Amit Kumar Yadav
         </h1>
         <p className="text-lg text-darkDesert mb-4 text-center px-8">
         A detailed-oriented, responsible, and committed Engineer with a get-it-done, on-time, and high-quality product spirit. I'm a self and quick learner, self-motivated and confident.
         </p>
         <p className="text-lg text-darkDesert mb-4 text-center px-8">
-        A detailed-oriented, responsible, and committed Engineer with a get-it-done, on-time, and high-quality product spirit. I'm a self and quick learner, self-motivated and confident.
+        I thrive in dynamic environments where I can tackle challenges, innovate, and contribute to impactful solutions. My ability to collaborate effectively and adapt quickly ensures that I deliver results that exceed expectations.
         </p>
         <p className="text-lg text-darkDesert mb-4 text-center px-8">
-        A detailed-oriented, responsible, and committed Engineer with a get-it-done, on-time, and high-quality product spirit. I'm a self and quick learner, self-motivated and confident.{" "}
+        A strong foundation in engineering principles and a passion for continuous growth, I aim to leverage my skills to drive excellence and make a meaningful impact in every project I undertake..{" "}
         </p>
 
         <p className="text-lg text-darkDesert mb-4 text-center px-8">

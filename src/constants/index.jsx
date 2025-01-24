@@ -1,3 +1,3 @@
-export const GITHUB_URL = "https://github.com/akash-kumar-saw";
-export const LINKEDIN_URL = "https://www.linkedin.com/in/akash-kumar-saw/";
-export const RESUME_URL = "https://docs.google.com/document/d/1Uvan5DjPGbZMYNjOb4WUUtWCG-j9toSpEBdO28iSUFk/";
+export const GITHUB_URL = "https://github.com/Amitkr83402";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/amit-kumar-yadav-048b082a6/";
+export const RESUME_URL = "https://drive.google.com/file/d/1fIlQU_p6GWDmkiaxSqI7-ZgwckWfA2yB/view?usp=drivesdk";

@@ -6,6 +6,7 @@ import {
   FaNodeJs,
   FaNpm,
   FaBootstrap,
+  FaCoffee,
 } from "react-icons/fa";
 import {
   SiVisualstudiocode,
@@ -21,22 +22,23 @@ import {
 import { DiGithubBadge } from "react-icons/di";
 
 const skills = [
-  { id: "html", Component: FaHtml5 },
-  { id: "css", Component: FaCss3Alt },
-  { id: "javascript", Component: SiJavascript },
-  { id: "bootstrap", Component: FaBootstrap },
-  { id: "typescript", Component: SiTypescript },
-  { id: "react", Component: FaReact },
-  { id: "mui", Component: SiMui },
-  { id: "tailwind", Component: SiTailwindcss },
-  { id: "node", Component: FaNodeJs },
-  { id: "sql", Component: SiMysql },
-  { id: "npm", Component: FaNpm },
-  { id: "yarn", Component: SiYarn },
-  { id: "mongodb", Component: SiMongodb },
-  { id: "vite", Component: SiVite },
-  { id: "vscode", Component: SiVisualstudiocode },
-  { id: "github", Component: DiGithubBadge },
+  { id: "HTML", Component: FaHtml5 },
+  { id: "CSS", Component: FaCss3Alt },
+  { id: "JavaScript", Component: SiJavascript },
+  { id: "Bootstrap", Component: FaBootstrap },
+  { id: "TypeScript", Component: SiTypescript },
+  { id: "React", Component: FaReact },
+  { id: "MUI", Component: SiMui },
+  { id: "Tailwind CSS", Component: SiTailwindcss },
+  { id: "Node.js", Component: FaNodeJs },
+  { id: "MySQL", Component: SiMysql },
+  { id: "NPM", Component: FaNpm },
+  { id: "Yarn", Component: SiYarn },
+  { id: "MongoDB", Component: SiMongodb },
+  { id: "Vite", Component: SiVite },
+  { id: "VS Code", Component: SiVisualstudiocode },
+  { id: "GitHub", Component: DiGithubBadge },
+  { id: "Java", Component: FaCoffee },
 ];
 
 export default function Skills() {
@@ -54,14 +56,17 @@ export default function Skills() {
         <h2 className="text-4xl font-bold text-darkDesert mb-6">Skills</h2>
         <div className="grid grid-cols-4 gap-4 my-4 justify-items-center">
           {trail.map((props, index) => {
-            const { Component } = skills[index];
+            const { id, Component } = skills[index];
             return (
               <animated.div
                 style={props}
-                className="text-5xl text-goldDesert transition-all duration-50 transform hover:scale-110 hover:text-darkDesert"
-                key={skills[index].id}
+                className="relative group text-5xl text-goldDesert transition-all duration-50 transform hover:scale-110 hover:text-darkDesert"
+                key={id}
               >
-                <Component />
+                <Component title={id} />
+                <span className="absolute bottom-[-1.5rem] left-1/2 transform -translate-x-1/2 opacity-0 text-xs font-medium bg-darkDesert text-white rounded px-2 py-1 group-hover:opacity-100 group-hover:translate-y-[-10px] transition-all">
+                  {id}
+                </span>
               </animated.div>
             );
           })}

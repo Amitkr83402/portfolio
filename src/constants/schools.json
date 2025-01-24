@@ -1,21 +1,21 @@
 [{
   "id": 1,
   "degree": "Secondary (X)",
-  "university": "St. Francis School",
+  "university": "St. Francis School ( ICSE BOARD )",
   "timePeriod": "2016",
   "img": "images/school.png"
 },
 {
   "id": 2,
   "degree": "Senior Secondary (XII)",
-  "university": "XYZ College",
+  "university": "Marwari College, Ranchi ( JAC BOARD )",
   "timePeriod": "2018",
   "img": "images/school.png"
 },
 {
   "id": 3,
   "degree": "Bachelor of Science in Information Technology",
-  "university": "XYZ College",
+  "university": "Ranchi University - Marwari College, Ranchi",
   "timePeriod": "2021",
   "img": "images/school.png"
 }]
