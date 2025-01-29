@@ -15,7 +15,7 @@ export default function NavBar() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
-              src="/logo.png"
+              src="public/logo.png"
               className="mr-3 h-6 sm:h-9"
               alt="Amit Logo"
             />
