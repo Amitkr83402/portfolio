@@ -4,22 +4,24 @@ import {
   FaCss3Alt,
   FaReact,
   FaNodeJs,
-  FaNpm,
   FaBootstrap,
-  FaCoffee,
+  FaJava,
 } from "react-icons/fa";
 import {
   SiVisualstudiocode,
-  SiMongodb,
   SiTailwindcss,
-  SiMui,
   SiTypescript,
   SiJavascript,
-  SiYarn,
   SiVite,
   SiMysql,
+  SiJenkins,
+  SiEclipseide,
 } from "react-icons/si";
 import { DiGithubBadge } from "react-icons/di";
+import { GrTest } from "react-icons/gr";
+import { TbBrandCucumber } from "react-icons/tb";
+import { BsMicrosoft } from "react-icons/bs";
+import { RiFileWord2Fill } from "react-icons/ri";
 
 const skills = [
   { id: "HTML", Component: FaHtml5 },
@@ -28,17 +30,21 @@ const skills = [
   { id: "Bootstrap", Component: FaBootstrap },
   { id: "TypeScript", Component: SiTypescript },
   { id: "React", Component: FaReact },
-  { id: "MUI", Component: SiMui },
   { id: "Tailwind CSS", Component: SiTailwindcss },
   { id: "Node.js", Component: FaNodeJs },
   { id: "MySQL", Component: SiMysql },
-  { id: "NPM", Component: FaNpm },
-  { id: "Yarn", Component: SiYarn },
-  { id: "MongoDB", Component: SiMongodb },
   { id: "Vite", Component: SiVite },
   { id: "VS Code", Component: SiVisualstudiocode },
   { id: "GitHub", Component: DiGithubBadge },
-  { id: "Java", Component: FaCoffee },
+  { id: "Java", Component: FaJava },
+  { id: "Selenium", Component: GrTest },
+  { id: "Cucumber", Component: TbBrandCucumber },
+  { id: "TestNG", Component: GrTest },
+  { id: "Jenkins", Component: SiJenkins },
+  { id: "Eclipse IDE", Component: SiEclipseide },
+  { id: "Visual Studio", Component: SiVisualstudiocode },
+  { id: "Microsoft Office", Component: BsMicrosoft },
+  { id: "Microsoft Word", Component: RiFileWord2Fill },
 ];
 
 export default function Skills() {
