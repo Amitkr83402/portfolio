@@ -5,14 +5,96 @@
     "company": "Lifetech Software, Regd. Under MSMES Govt. of INDIA",
     "description": "Description",
     "timePeriod": "March 2021- August 2021",
-    "img": "images/certificate.png"
+    "img": "public/images/Php and Phython with MySQL.jpeg"
   },
   {
     "id": "2",
-    "title": "MS EXCEL",
-    "company": "Coursera Project Network",
-    "description": "Description",
-    "timePeriod": "Nomber 2024 - December 2024",
-    "img": "images/certificate.png"
+    "title": "Coding: Development & Advanced Engineering Job Simulation",
+    "company": "Issued by Accenture & Forage – January 2025",
+    "description": "A hands-on program focused on Object-Oriented Programming, Code Refactoring, Continuous Integration, and Agile Planning.",
+    "timePeriod": "31st-Jan-2025",
+    "img": "public/images/Forage and Accenture.png"
+  },
+  {
+    "id": "3",
+    "title": "JAVA PROGRAMMING",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Pegasus",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Java Programming.png"
+  },
+  {
+    "id": "4",
+    "title": "Cucumber with Java",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Phoenix",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Cucumber with Java.png"
+  },
+  {
+    "id": "5",
+    "title": "Intro to Selenium WebDriver with .NET Core",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Unicorn",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Intro to Selenium WebDriver with .NET Core.png"
+  },
+  {
+    "id": "6",
+    "title": "Setting a foundation for Successful Test Automation",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Unicorn",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Setting a foundation for Successful Test Automation.png"
+  },
+  {
+    "id": "7",
+    "title": "Web Element Locator Strategies",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Unicorn",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Web Element Locator Strategies.png"
+  },
+  {
+    "id": "8",
+    "title": "Introduction to TestNG",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Unicorn",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Introduction to TestNG.png"
+  },
+  {
+    "id": "9",
+    "title": "The Whole Team Approach to Contineous Testing",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Pegasus",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/The Whole Team Approach to Contineous Testing.png"
+  },
+  {
+    "id": "10",
+    "title": "Exploring Service APIs through Test Automation",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Unicorn",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Exploring Service APIs through Test Automation.png"
+  },
+  {
+    "id": "11",
+    "title": "Scaling Test with Docker",
+    "company": "Applitool- Test Automation University",
+    "description": "Certificate Of Completion",
+    "Rank": "Unicorn",
+    "timePeriod": "Jan-2025",
+    "img": "public/images/Scaling Test with Docker.png"
   }
+  
 ]

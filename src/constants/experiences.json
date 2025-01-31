@@ -5,7 +5,7 @@
     "company": "E-Commerce Application Automation Project",
     "description": "This project focused on automating testing for an e-commerce web app, ensuring smooth product search, cart management, and order placement. Key contributions include building a Hybrid Automation Framework using Selenium WebDriver, TestNG, and Apache POI for data-driven and keyword-driven testing. Workflows for product filtering, checkout, and order confirmation were automated, with cross-browser testing done using Selenium Grid. Jenkins was used for continuous integration and reporting, while Git helped with version control. Tools used included Selenium WebDriver, TestNG, Maven, Jenkins, Apache POI, Git, Eclipse, and JIRA. ",
     "timePeriod": "November 2024 - December 2024",
-    "img": "images/xyz.png"
+    "img": ""
   } ,
   {
     "id": "2",
@@ -13,6 +13,6 @@
     "company": "E-Commerce Application Automation Project",
     "description": "In this project, the focus is on automating tests for a banking app, ensuring reliability, security, and compliance for account management, customer onboarding, and transactions. Contributions include building a Cucumber-based BDD framework in Maven and IntelliJ IDEA to facilitate collaboration between technical and non-technical teams. Key modules such as login, account transfers, and transaction history were automated using Selenium WebDriver. Test scenarios for security validation and compliance were created, and JIRA was used for issue resolution. Git ensured efficient version control. Tools used are Selenium WebDriver, Cucumber, Maven, Jenkins, IntelliJ IDEA, Git, and JIRA. ",
     "timePeriod": "December 2024 - January 2025",
-    "img": "images/xyz.png"
+    "img": ""
   }
 ]

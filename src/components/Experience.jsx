@@ -11,13 +11,7 @@ import certifications from "../constants/certifications.json";
 
 const JobExperienceCard = ({ experience, onClick }) => (
   <VerticalTimelineElement
-    icon={
-      <img
-        src={experience.img}
-        alt={experience.title}
-        className="h-full w-full rounded-full block "
-      />
-    }
+    
     contentStyle={{ position: "relative" }}
     date={<span className="text-darkDesert">{experience.timePeriod}</span>}
   >
@@ -62,20 +56,23 @@ const NonDevExperienceCard = ({ experience, onClick }) => (
 const Experience = () => {
   const [modalContent, setModalContent] = useState(null);
 
+  // Check if the modal content corresponds to a certificate
+  const isCertification = modalContent && certifications.some(cert => cert.id === modalContent.id);
+
   return (
     <div
       id="experience"
       className="bg-lightDesert p-10 rounded-lg w-full h-auto"
     >
       <h2 className="text-4xl font-bold text-darkDesert mb-4 text-center">
-       Experience
+        Experience
       </h2>
       <VerticalTimeline>
         {experiences.map((experience, index) => (
           <JobExperienceCard 
-          key={index} 
-          experience={experience}  
-          onClick={() => setModalContent(experience)}
+            key={index} 
+            experience={experience}  
+            onClick={() => setModalContent(experience)}
           />
         ))}
       </VerticalTimeline>
@@ -93,28 +90,49 @@ const Experience = () => {
         ))}
       </VerticalTimeline>
 
+      {/* Modal for Certificate Display */}
       <Modal
         isOpen={!!modalContent}
         onRequestClose={() => setModalContent(null)}
-        className="fixed inset-0 z-50 flex items-center justify-center p-6 "
+        className="fixed inset-0 z-50 flex items-center justify-center p-6"
         overlayClassName="bg-black bg-opacity-50 transition-opacity duration-500 ease-out"
       >
-        <div className="bg-white p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 md:space-y-0 max-w-md max-h-[80vh] overflow-y-auto">
+        <div className="bg-white p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 md:space-y-0 max-w-3xl w-full overflow-y-auto relative">
           <button
             onClick={() => setModalContent(null)}
-            className="absolute top-2 right-2 text-darkDesert hover:text-goldDesert"
+            className="absolute top-4 right-4 text-darkDesert hover:text-goldDesert"
           >
             <FaTimesCircle size={32} />
           </button>
-          <div>
-            <h3 className="text-darkDesert text-2xl font-bold mb-4">
+          <div className="flex flex-col items-center">
+            <h3 className="text-darkDesert text-2xl font-bold mb-2 text-center">
               {modalContent?.title}
             </h3>
-            <p className="text-darkDesert mb-4">{modalContent?.company}</p>
-            <p className="text-darkDesert mb-4">{modalContent?.description}</p>
-            <p className="text-darkDesert font-bold">
-              {modalContent?.timePeriod}
-            </p>
+            <p className="text-darkDesert mb-2 text-center">{modalContent?.company}</p>
+            <p className="text-darkDesert text-lg text-center mb-4">{modalContent?.description}</p>
+            <p className="text-darkDesert font-bold">{modalContent?.timePeriod}</p>
+            
+            {/* Display Extended Certificate Image */}
+            {isCertification && modalContent?.img && (
+              <div className="mt-4 flex justify-center">
+                <img
+                  src={modalContent.img}
+                  alt="Certificate"
+                  className="w-full max-w-2xl rounded-lg shadow-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            )}
+
+            {/* Display Regular Experience Image */}
+            {!isCertification && modalContent?.img && (
+              <div className="mt-4 flex justify-center">
+                <img
+                  src={modalContent.img}
+                  alt="Experience"
+                  className="h-24 w-24 rounded-full shadow-lg"
+                />
+              </div>
+            )}
           </div>
         </div>
       </Modal>
