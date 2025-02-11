@@ -16,6 +16,9 @@ import {
   SiMysql,
   SiJenkins,
   SiEclipseide,
+  SiAzuredevops,
+  SiGit,
+  SiApache,
 } from "react-icons/si";
 import { DiGithubBadge } from "react-icons/di";
 import { GrTest } from "react-icons/gr";
@@ -37,7 +40,7 @@ const skills = [
   { id: "VS Code", Component: SiVisualstudiocode },
   { id: "GitHub", Component: DiGithubBadge },
   { id: "Java", Component: FaJava },
-  { id: "Selenium", Component: GrTest },
+  { id: "Selenium WebDriver", Component: GrTest },
   { id: "Cucumber", Component: TbBrandCucumber },
   { id: "TestNG", Component: GrTest },
   { id: "Jenkins", Component: SiJenkins },
@@ -45,6 +48,19 @@ const skills = [
   { id: "Visual Studio", Component: SiVisualstudiocode },
   { id: "Microsoft Office", Component: BsMicrosoft },
   { id: "Microsoft Word", Component: RiFileWord2Fill },
+  { id: "Zephyr Scale", Component: SiAzuredevops },
+  { id: "JIRA", Component: SiAzuredevops },
+  { id: "Azure DevOps", Component: SiAzuredevops },
+  { id: "JMeter", Component: SiApache },
+  { id: "GIT", Component: SiGit },
+  { id: "Hybrid Automation Framework", Component: GrTest },
+  { id: "BDD (Behavior-Driven Development)", Component: TbBrandCucumber },
+  { id: "Scrum", Component: BsMicrosoft },
+  { id: "Kanban", Component: BsMicrosoft },
+  { id: "Test Case Management", Component: SiAzuredevops },
+  { id: "Defect Reporting & Tracking", Component: SiAzuredevops },
+  { id: "Apache POI", Component: SiApache },
+  { id: "Log4j", Component: SiApache },
 ];
 
 export default function Skills() {

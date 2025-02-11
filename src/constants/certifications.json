@@ -1,19 +1,52 @@
 [
   {
+    
+    "id": "1",
+    "title": "The Complete 2025 Software Testing Bootcamp:",
+    "company": "Issued by Udemy",
+    "timePeriod": "10, february,2025",
+    "img": "public/images/Udemy Complete Bootcamp 2025.png"
+  },
+  {
+    
+    "id": "1",
+    "title": "Website Testing and Deployment:",
+    "company": "Issued by IBM",
+    "timePeriod": "February,2025",
+    "img": "public/images/IBM Web Testing and Deployment.png"
+  },
+  {
+    
+    "id": "1",
+    "title": "Web Development Basics:",
+    "company": "Issued by IBM",
+    "timePeriod": "February,2025",
+    "img": "public/images/IBM Web Development Basics.png"
+  },
+  {
+    
+    "id": "1",
+    "title": "Coding: Development & Advanced Engineering:",
+    "company": "Issued by Accenture",
+    "timePeriod": "January,2025",
+    "img": "public/images/Forage and Accenture.png"
+  },
+  {
+    
+    "id": "1",
+    "title": "Advanced Software Engineering:",
+    "company": "Issued by PepsiCo",
+    "timePeriod": "February,2025",
+    "img": "public/images/PepsiCo Advanced Software Engineering .png"
+  },
+  {
+    
     "id": "1",
     "title": "PYTHON & PHP With MYSQL",
     "company": "Lifetech Software, Regd. Under MSMES Govt. of INDIA",
     "description": "Description",
     "timePeriod": "March 2021- August 2021",
     "img": "public/images/Php and Phython with MySQL.jpeg"
-  },
-  {
-    "id": "2",
-    "title": "Coding: Development & Advanced Engineering Job Simulation",
-    "company": "Issued by Accenture & Forage – January 2025",
-    "description": "A hands-on program focused on Object-Oriented Programming, Code Refactoring, Continuous Integration, and Agile Planning.",
-    "timePeriod": "31st-Jan-2025",
-    "img": "public/images/Forage and Accenture.png"
   },
   {
     "id": "3",
